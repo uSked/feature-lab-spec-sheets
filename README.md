@@ -1,12 +1,12 @@
 # Feature Lab Spec Sheets
 
-This organization repository is the migration workspace for the Feature Lab Spec Sheets operating process. The intended workflow is transcript ingestion in Codex, direct review of the current `uSked/wde-service` default branch, and Google Drive as the home for Feature Lab working and final artifacts.
+This organization repository holds the Markdown migration of the Feature Lab Spec Sheets operating process. The intended workflow is transcript ingestion in Codex, direct review of the current `uSked/wde-service` `main` or `master` branch, and Google Drive as the home for Feature Lab working and final artifacts.
 
 ## Current authority
 
-The [live Project Settings Google Doc](https://docs.google.com/document/d/1L3MC77mbsBH1X3goFo4AiAkn3TECJrO6djwLRT3L88g) and its linked instruction documents remain authoritative until the migration is reviewed and their authority is explicitly changed. Files in `migration/source-snapshots/` preserve the starting text; they are not active instructions.
+The maintained drafts are [Project Settings](docs/project-settings.md), [Pre-Spec Instructions](docs/pre-spec-instructions.md), and [Spec Sheet Instructions](docs/spec-sheet-instructions.md). The [live Project Settings Google Doc](https://docs.google.com/document/d/1L3MC77mbsBH1X3goFo4AiAkn3TECJrO6djwLRT3L88g) and its linked instruction documents remain authoritative until the conversion is reviewed and their authority is explicitly changed. Files in `migration/source-snapshots/` preserve the starting text; they are not active instructions.
 
-The new [transcript ingestion skill](.agents/skills/feature-lab-ingestion/SKILL.md) uses the live Google instructions and adds a code review against the current `main` or `master` branch. See [MIGRATION.md](MIGRATION.md) for the cutover plan and [docs/code-review-standard.md](docs/code-review-standard.md) for the evidence standard.
+The [transcript ingestion skill](.agents/skills/feature-lab-ingestion/SKILL.md) routes through the maintained drafts, checks the live Google authority during migration, and adds a code review against the current `main` or `master` branch. See [MIGRATION.md](MIGRATION.md) for the cutover plan and [code review standard](docs/code-review-standard.md) for the evidence requirements.
 
 ## Sources and outputs
 
